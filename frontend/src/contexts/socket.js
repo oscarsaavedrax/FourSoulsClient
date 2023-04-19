@@ -10,7 +10,10 @@ import { io } from "socket.io-client";
 // Set the url for the server
 const URL = "http://localhost:4010";
 // Create socket and autoconnect false to connect only when needed from other componenets - O.S.
-export const socket = io(URL, { autoConnect: false });
+export const socket = io(URL, {
+  autoConnect: false,
+  transports: ["websocket"],
+});
 export const SocketContext = React.createContext();
 
 // Create catch all listener to get feedback on server - O.S.
