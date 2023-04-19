@@ -1,0 +1,37 @@
+.SliderName {
+    width: 100%;
+    max-width: 500px;
+    height: 5vh;
+    margin: auto;
+  }
+  .SliderThumb {
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    background: #028509;
+    border: 5px solid #028509;
+    border-radius: 100%;
+    display: block;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
+  }
+  .SliderThumb.active {
+    background-color: grey;
+  }
+  .SliderTrack {
+    position: relative;
+    background: rgb(255, 255, 255);
+  }
+  .SliderTrack.SliderTrack-0 {
+    background: #12ad1a;
+  }
+  .SliderName .SliderTrack {
+    top: 20px;
+    height: 4px;
+  }
+  .SliderName .SliderThumb {
+    top: 12px;
+    width: 10px;
+    outline: none;
+    height: 10px;
+    line-height: 38px;
+  }

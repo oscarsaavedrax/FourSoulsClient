@@ -1,0 +1,68 @@
+/* Styles for the User component in Lobby Page */
+
+/* If the username is on the top row */
+
+/* If the username is on the bottom row */
+
+.lobbyPage-player-icon {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.lobbyPage-player-username{
+    font-size: 50px;
+}
+
+.lobbyPage-checkbox-label {
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lobbyPage-checkbox {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.lobbyPage-player-0,
+.lobbyPage-player-1,
+.lobbyPage-player-2,
+.lobbyPage-player-3 {
+    background-color: white;
+    margin: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+.lobbyPage-player-0 {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.lobbyPage-player-1 {
+    grid-row: 1;
+    grid-column: 2;
+
+}
+
+.lobbyPage-player-2 {
+    grid-row: 3;
+    grid-column: 1;
+
+}
+
+.lobbyPage-player-3 {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.lobbyPage-username-checkox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1vw;
+}

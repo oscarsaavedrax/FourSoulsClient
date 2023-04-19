@@ -1,0 +1,17 @@
+/*************************************************************************
+* Oscar Saavedra
+*************************************************************************/
+/*Set the background image of the whole page*/
+body {
+    background-image: url("../assets/images/starry_background.jpg")
+}
+
+/*Set the default font family*/
+p {
+    font-family: Arial;
+    margin: 0px;
+}
+
+
+
+
