@@ -8,7 +8,7 @@ import React from "react";
 // Import socket.io for the client side - O.S.
 import { io } from "socket.io-client";
 // Set the url for the server
-const URL = "http://localhost:4010";
+const URL = "https://foursoulscardgame-server.herokuapp.com/";
 // Create socket and autoconnect false to connect only when needed from other componenets - O.S.
 export const socket = io(URL, {
   autoConnect: false,
